@@ -6,18 +6,14 @@ function AItextinput() {
       <InputPredict
         type="text"
         name="name"
-        placeholder="colorname"
-        // fuzzy={true}
+        placeholder="Search.."
         onValueChange={(e) => console.log("text", e)}
         dictionary={[
-          "kiwi",
-          "oranges",
-          "watermelon",
-          "pineapple",
-          "what is the datasciences?",
+          "what is the datasciences",
+          "what is the datasciences ai?",
           "Okay, thank you for the data",
         ]}
-      />
+      />    
     </div>
   );
 }
